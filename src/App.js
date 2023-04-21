@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         {/* <Loading /> */}
         {/* <Home /> */}
-        {/* <NewHome /> */}
+        <NewHome />
 
         {/* {state ? <Home /> : <Loading /> } */}
     </div>

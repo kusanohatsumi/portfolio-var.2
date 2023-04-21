@@ -22,7 +22,7 @@ function App() {
         {/* <Home /> */}
         {/* <NewHome /> */}
 
-        {state ? <Home /> : <Loading /> }
+        {/* {state ? <Home /> : <Loading /> } */}
     </div>
     )
 }

@@ -18,13 +18,12 @@ function App() {
   return (
     <>
       {/* <Header /> */}
-      <main className="App">
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/work" element={<Works />} />
-          <Route path="/works/:itemId" element={<Work />} />
-        </Routes>
-      </main>
+
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/work" element={<Works />} />
+        <Route path="/works/:itemId" element={<Work />} />
+      </Routes>
       {/* <Footer /> */}
     </>
   );

@@ -23,37 +23,17 @@ export const Work = () => {
 
 
   return (
-    <section id='work' className='section'>
-
-      {/* 表示形式 */}
-        {/* <div className='viewChange'>
-          <label><input type="checkbox" /></label>
-          <label><input type="checkbox" /></label>
-
-
-          <figure onClick={changeCard} ><img src={card} /></figure>
-          <figure onClick={changeTable}><img src={table} /></figure>
-        </div> */}
-      {/* --- */}
-
-        {/* 作品一覧 */}
-        <div className='work'>
-          {WorkItem.map((doc,i)=>(
-          <div key={i} className={state ? "work__item card" : "work__item table"} >
-              <Link to={`/work/${doc.name}`} >
-              <figure key={i}>
-                  <img src={`${process.env.PUBLIC_URL}/img/${doc.photo}`} alt="サムネイル" />
-              </figure>
-              <section className='text'>
-                  <h3>{doc.name}</h3>
-                  <p>{doc.genre}</p>
-              </section>
-              </Link>
-          </div>
-          ))}
-
-            {/* {flag ? <Table /> :  <Slider />} */}
-        </div>
-    </section>
+        <section>
+            <h2>WORK</h2>
+            <div className='Work'>
+            {WorkItem.map((doc,i)=>(
+                <div className='Work__item' key={i}>
+                    <a href={doc.url} target="_blank">
+                        <img src={`${process.env.PUBLIC_URL}/img/${doc.photo}`} alt="サムネイル" />
+                    </a>
+                </div>
+            ))}
+            </div>
+        </section>
   )
 }

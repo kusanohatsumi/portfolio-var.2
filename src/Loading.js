@@ -5,8 +5,7 @@ export const Loading = () => {
     console.log("end");
     setTimeout(() => {
         loadingText.current.style.opacity=0;
-        loadingText.current.style.zIndex=-1;
-    }, 2000);
+    }, 1500);
 }
 return (
     <div className='loading'>

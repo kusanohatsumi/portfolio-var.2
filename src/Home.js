@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { About } from "./About";
-import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Main } from "./Main";
 import { WorkDetail } from './WorkDetail';
@@ -48,7 +47,6 @@ return (
             <Route path="/AboutMe" element={<About />} />
             <Route path='/work/:itemName' element={<WorkDetail />} />
         </Routes>
-    {/* <Footer /> */}
   </BrowserRouter>
 </>
   )

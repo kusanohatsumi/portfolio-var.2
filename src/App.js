@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import "./App.scss"
+import "./scss/style.scss"
+
 
 import { Home } from "./Home";
 import { Loading } from "./Loading";
@@ -20,9 +21,8 @@ function App() {
       <div className="App">
         {/* <Loading /> */}
         {/* <Home /> */}
-        <NewHome />
 
-        {/* {state ? <Home /> : <Loading /> } */}
+        {state ? <Home /> : <Loading /> }
     </div>
     )
 }

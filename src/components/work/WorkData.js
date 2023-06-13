@@ -19,6 +19,25 @@ const WorkItem = [
   },
   {
     id: 1,
+    name: "Ikamatch",
+    photo: "ikamatch.svg",
+    url: "https://ikamatch.vercel.app/",
+    genre: "WEB DESIGN",
+    tag: {
+      member: "チーム制作",
+      period: "2年後期",
+    },
+    use: {
+      word: "React",
+      tool: "Figma , Illustrator",
+      other: "Firebase",
+    },
+    concept: "スプラトゥーン",
+    note: "イカのマッチングアプリ",
+  },
+
+  {
+    id: 2,
     name: "YORIDOKORO",
     photo: "yoridokoro.svg",
     url: "https://click.ecc.ac.jp/ecc/hkusano/portfolio/yoridokoro/public/",
@@ -36,7 +55,7 @@ const WorkItem = [
     note: "健康なお弁当を食べながらカロリー計算ができるサービス",
   },
   {
-    id: 2,
+    id: 3,
     name: "Tomoni",
     photo: "tomoni.svg",
     genre: "WEB DESIGN",

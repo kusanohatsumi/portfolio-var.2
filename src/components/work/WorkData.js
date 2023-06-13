@@ -47,7 +47,7 @@ const WorkItem = [
       period: "2年前期",
     },
     use: {
-      word: "react",
+      word: "gulp Sass JavaScript",
       tool: "Figma , Illustrator",
       other: "Firebase",
     },

@@ -22,7 +22,6 @@ const WorkItem = [
     name: "YORIDOKORO",
     photo: "yoridokoro.svg",
     url: "https://click.ecc.ac.jp/ecc/hkusano/portfolio/yoridokoro/public/",
-    concept: "宅配弁当サービス",
     genre: "WEB DESIGN",
     tag: {
       member: "個人制作",
@@ -33,6 +32,8 @@ const WorkItem = [
       tool: "Figma , Illustrator",
       other: "Firebase",
     },
+    concept: "宅配弁当サービス",
+    note: "健康なお弁当を食べながらカロリー計算ができるサービス",
   },
   {
     id: 2,
@@ -49,6 +50,7 @@ const WorkItem = [
       other: "Firebase",
     },
     concept: "写真アプリ",
+    note: "旅行先で撮った写真を保存していくことで、地図上にピンを立てて旅行の思い出を振り返ることができるアプリ",
   },
 ];
 

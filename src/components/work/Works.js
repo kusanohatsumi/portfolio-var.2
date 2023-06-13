@@ -12,7 +12,7 @@ export const Works = () => {
       <div className="Work">
         {WorkItem.map((doc, i) => (
           <div className="Work__item" key={i}>
-            <Link to={`/works/${doc.id}`}>
+            <Link to={doc.url}>
               <img
                 src={`${process.env.PUBLIC_URL}/img/${doc.photo}`}
                 alt="サムネイル"

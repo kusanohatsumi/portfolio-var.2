@@ -25,4 +25,12 @@
 }
 
 @media screen and (max-width: 550px) {
+  .firstView {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
 }
